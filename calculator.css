@@ -1,0 +1,39 @@
+body{
+	magin:0;
+	padding: 0;
+	background-image: url(photo.jpg);
+}
+form{
+position: relative;
+left: 600px;
+top:150px;
+}
+input{
+	height: 80px;
+	width: 252px;
+	border-radius: 10px;
+	font-size: 50px;
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+	border:none;
+}
+button{
+	position: relative;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	border: solid;
+	border-size:5px;
+	border-color: red;
+}
+#plus,#c,#percent,#divide,#multi,#sub,#plus,#equal{
+	background-color: red;
+	border: solid;
+	border-size:5px;
+	border-color: black;
+}
