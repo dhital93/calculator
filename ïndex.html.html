@@ -12,7 +12,7 @@
 			<tr>
 				<td><button type="button" id="c" value="C" onclick="bc()">C</button></td>
 				<td><button type="button" id="plus" value="+/-" onclick="back()">⌦</button></td>
-				<td><button type="button" id="percent" value="%" onclick="bpercent()">%</button></td>
+				<td><button type="button" id="percent" value="%" onclick="bpercent()">D</button></td>
 				<td><button type="button" id="divide" value="/" onclick="bdivide()">/</button></td>
 			</tr>
 			<tr>
@@ -51,7 +51,7 @@
 			document.calculator.textview.value = num.substr(0,num.length-1);
 		}
 		function bpercent(){
-			document.calculator.textview.value+="%";
+			document.calculator.textview.value="prabin";
 		}
 		function bdivide(){
 			document.calculator.textview.value+="/";
